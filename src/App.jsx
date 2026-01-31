@@ -5,7 +5,7 @@ import MovieCard from "./components/MovieCard.jsx";
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appwrite.js";
 
-const API_BASE_URL = 'http://www.omdbapi.com/?apikey='
+const API_BASE_URL = 'https://www.omdbapi.com/?apikey='
 
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY
 
